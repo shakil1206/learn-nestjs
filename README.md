@@ -58,7 +58,7 @@ After installing **Nodemon** you need to add **nodemon.json** file in your root 
 
 Okay now we need to update **package.json** file go to "script" json and add below code wherever you want.
 
-        "debug": "nodemon",
+	    "debug": "nodemon",
 
 After adding it we can start the project by using following command 
 ```bash
@@ -70,6 +70,7 @@ Alternatively you can run your project by using following command, Which is defa
 ```bash
 	npm run start
 ```
+
 
 
 
