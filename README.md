@@ -77,7 +77,8 @@ npm run start
 
 ### main.ts file
 
-**Insert Image1 here**
+![Main File](https://github.com/shakil1206/learn-nestjs/assets/44937746/6aeb2a5a-2054-41f6-9293-9abd2c8c65ec)
+
 
 The `main.ts` file is the entry point of a NestJS application. It's where the application gets bootstrapped and the NestJS application instance gets created.
 
