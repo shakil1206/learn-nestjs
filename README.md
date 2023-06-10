@@ -199,7 +199,8 @@ After running both command we can create service and controller for book module.
 
 ### Connect Mongoose Database
 
-**Image2 put here**
+![Image2](https://github.com/shakil1206/learn-nestjs/assets/44937746/5f19d3f1-4cd1-408f-ae5a-02adec4c9a59)
+
 
 This is a NestJS module responsible for configuring the database connection to MongoDB using the Mongoose library.
 
@@ -218,7 +219,9 @@ So, our database has been done. Now we focused to create route and services.
 
 ### Create Mongoose Schema
 
-**Put Image3 Here**
+
+![Image3](https://github.com/shakil1206/learn-nestjs/assets/44937746/09a4174a-435f-4e7b-841c-5e88fc3bc0fe)
+
 
 This code defines a `Book` schema for Mongoose in a NestJS application:
 
@@ -231,7 +234,7 @@ This code defines a `Book` schema for Mongoose in a NestJS application:
 4. `export const BookSchema = SchemaFactory.createForClass(Book);`: This line uses the `SchemaFactory`'s `createForClass` method to create a Mongoose schema for the `Book` class. The resulting schema can then be used with the Mongoose model to interact with the MongoDB database.
 
 ### Create Book DTO 
-**Put Image4 Here**
+![Image4](https://github.com/shakil1206/learn-nestjs/assets/44937746/90626fcb-5d17-49e8-a3d7-ff9e032acc43)
 
 The `BookDto` and `UpdateBookDto` classes are Data Transfer Objects (DTOs) in a NestJS application. These are used to define and validate the structure of data coming into your application. `BookDto` likely handles incoming data for creating a new book, while `UpdateBookDto` likely handles incoming data for updating an existing book. Each has properties `title`, `description`, `author`, and `price`, all of which are read-only and of type `string`, except for `price` which is a `number`.
 
@@ -239,8 +242,6 @@ Also need to validation our data so that add validation by installing class-vali
 
 ### Create Book DTO
  
-**Put Image5 Here**
-
 Also need to validation our data so that add validation by installing `class-validator` and `class-transformer`. Run following command in your project terminal 
 
 ```bash
